@@ -38,7 +38,7 @@
 .main{
     position: relative;   
     background: url(./img/fork.jpeg);
-    min-height: 100vh;
+    /* min-height: 50vh; */
     background-size: cover;
     /* background-position: center; */
     padding: 280px 0 220px;
@@ -65,3 +65,20 @@
     text-decoration: none;
     padding: 10px 20px;
 }
+/* Contact us */
+.image{
+    background-image: url(./img/menu.jpg);
+    position: relative;
+    height: 100vh;
+    /* width: 100vw; */
+    background-size: cover;
+}
+.first{
+    width: 25%;
+    height: 25%;
+    position: absolute;
+}
+
+
+
+
