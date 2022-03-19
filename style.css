@@ -1,8 +1,4 @@
-* {
-  /* margin: 0; */
-  /* padding-right: 0; */
-  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
-}
+
 #header {
   position: absolute;
   z-index: 10;
@@ -73,7 +69,7 @@
 #cont {
   background-color: white;
   width: 50%;
-  height: 80%;
+  height: 100%;
   /* display: flex; */
   justify-content: center;
   color:black;
@@ -88,4 +84,12 @@
     text-align: center;
     
     margin-top: 20px;
+}
+.top{
+    text-align: center;
+    
+    margin-top: 20px;
+}
+.about{
+    background-color: black;
 }
