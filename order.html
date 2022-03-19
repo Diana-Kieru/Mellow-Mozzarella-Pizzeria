@@ -14,54 +14,72 @@
     <title>Mellow-Mozzarella-Pizzeria</title>
   </head>
   <body>
-  <div class="image">
-   <div id="cont" class="container">
-     <div class="row">
-       <div class="col-8">
-         <h4>Order here!</h4>
-         <form>
-           <div class="row">
-             <div class="col-6">
-               <label class="form-label" for="Name">Name</label>
-               <input type="text" id="name" class="form-control">
-             </div>
-             <div class="dropdown">
-              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                Choose Pizza type
-              </button>
-              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                <li><a class="dropdown-item" href="#">Chicken Pizza</a></li>
-                <li><a class="dropdown-item" href="#">BBQ pizza</a></li>
-                <li><a class="dropdown-item" href="#">fruit Pizza</a></li>
-              </ul>
-            </div>
-            <div class="dropdown">
-              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                Pizza Size
-              </button>
-              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </div>
-            <div class="dropdown">
-              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                Pizza Crust
-              </button>
-              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </div>
-           </div>
-           
-         </form>
-       </div>
-     </div>
-   </div>
-  </div>
+    <div class="image">
+      <div id="cont" class="container">
+        <div class="row">
+          <div class="col-8">
+            <h4>Order here!</h4>
+            <form>
+              <div class="row">
+                <div class="col-6">
+                  <label class="form-label" for="Name">Name</label>
+                  <input type="text" id="name" class="form-control" />
+                </div>
+
+                <div class="btn-group dropend">
+                  <button
+                    type="button"
+                    class="btn btn-secondary dropdown-toggle"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                  Pick your favourite flavour
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Menu item</a></li>
+                    <li><a class="dropdown-item" href="#">Menu item</a></li>
+                    <li><a class="dropdown-item" href="#">Menu item</a></li>
+                  </ul>
+                </div>
+
+                <div class="btn-group dropend">
+                  <button
+                    type="button"
+                    class="btn btn-secondary dropdown-toggle"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                  Pick the size 
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Menu item</a></li>
+                    <li><a class="dropdown-item" href="#">Menu item</a></li>
+                    <li><a class="dropdown-item" href="#">Menu item</a></li>
+                  </ul>
+                </div>
+
+                <div class="btn-group dropend">
+                  <button
+                    type="button"
+                    class="btn btn-secondary dropdown-toggle"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Pick preffered pizza crust
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Menu item</a></li>
+                    <li><a class="dropdown-item" href="#">Menu item</a></li>
+                    <li><a class="dropdown-item" href="#">Menu item</a></li>
+                  </ul>
+                </div>
+                <h4 class="extra">Extra Toppings</h4>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
