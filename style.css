@@ -1,4 +1,3 @@
-
 #header {
   position: absolute;
   z-index: 10;
@@ -33,9 +32,9 @@
 .main {
   position: relative;
   background: url(./img/fork.jpeg);
-  
+
   background-size: cover;
-  
+
   padding: 280px 0 220px;
   object-fit: cover;
 }
@@ -64,78 +63,72 @@
   background-image: url(./img/menu.jpg);
   position: relative;
   height: 100vh;
-
-  
 }
 #cont {
   background-color: white;
   width: 50%;
   height: 100%;
-  
-  justify-content: center;
-  color:black;
-  
-}
-.btn-group{
-    color: white;
-    margin-top: 50px;
 
+  justify-content: center;
+  color: black;
 }
-.extra{
-    text-align: center;
-    
-    margin-top: 20px;
+.btn-group {
+  color: white;
+  margin-top: 50px;
 }
-.top{
-    text-align: center;
-    
-    margin-top: 20px;
+.extra {
+  text-align: center;
+
+  margin-top: 20px;
 }
-.bg{
-    background-image: url(./img/logo.webp);
-    height: 620px;
-    position: relative;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.top {
+  text-align: center;
+
+  margin-top: 20px;
 }
-.text{
-    text-align: center;
-    padding: 30px;
-    margin-top: 25%;
-    margin-left: 50%;
-    width: 500px;
-    color: #111;
-    background: transparent;
-    background-color: rgba(255, 255, 255, .2);
-    transform: translate(-50%, -50%);
+.bg {
+  background-image: url(./img/logo.webp);
+  height: 620px;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.footer{
+.text {
+  text-align: center;
+  padding: 30px;
+  margin-top: 25%;
+  margin-left: 50%;
+  width: 500px;
+  color: #111;
+  background: transparent;
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: translate(-50%, -50%);
+}
+.footer {
   text-align: center;
   background-color: #f7e411;
   /* margin-top: -5px; */
 }
-.portfolio{
+.portfolio {
   background-color: #f1f0f0;
   padding: 30px;
 }
-.cardWidth{
+.cardWidth {
   height: 300px;
 }
-.rowPortfolio{
+.rowPortfolio {
   margin-top: 20px;
 }
-.drop{
-  justify-content: center;
-  align-items: center;
-}
-.form-check{
-  display: block !important;
-
-}
-.order{
-
+.order {
   background: url(./img/five.webp);
   background-repeat: no-repeat;
   background-size: cover;
+}
+.drop {
+  justify-content: center;
+  align-items: center;
+}
+.form-check {
+  display: block !important;
 }
