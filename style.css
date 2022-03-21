@@ -113,6 +113,7 @@
 .footer{
   text-align: center;
   background-color: #f7e411;
+  /* margin-top: -5px; */
 }
 .portfolio{
   background-color: #f1f0f0;
