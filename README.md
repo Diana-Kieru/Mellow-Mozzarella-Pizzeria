@@ -7,4 +7,9 @@
 Mellow-Mozzarella-Pizzeria website is designed to allow our customers order pizza online for convenience. we also deliver pizza in location around us for a standard fee. our customers can be able to order any number of pizza and chose their desired toppings and crust.
 ## Setup/Installation Requirements
 You need a device with a browser and good internet to be able to view the contents of the page.
-
+## Known Bugs
+The code does not have any bugs but incase you get any challenges while accessing the website. kindly contact me using dianakieru1@gmail.com.
+## Technologies Used
+HTML
+CSS
+Javascript
